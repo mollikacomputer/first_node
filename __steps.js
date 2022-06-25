@@ -10,5 +10,8 @@ For express/ node server
 ----------------------------
 * 1. npm install --save-dev nodemon and npm install --save-dev nodemon  // for server auto restart
 * 2. change package.json file into script "start": "node index.js", "start-dev": "nodemon index.js",
+    const id = req.params.id;
+    const user = users[id];
+    res.send(user);
 * 
 */
