@@ -33,7 +33,7 @@ app.get('/user/:id', (req, res)=>{
 });
 
 app.post('/user', (req, res)=>{
-    // req data আসে res data পাঠায়
+    // req data server থেকে  আসে; res data server এ পাঠায়;
     console.log("request", req.body);
     res.send('Post method success');
 });
